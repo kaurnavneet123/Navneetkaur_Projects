@@ -1,0 +1,194 @@
+body {
+    background-color:burlywood;
+    padding: 0%;
+    margin: 0;
+    overflow-x: hidden;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header
+{
+    background-color:#031b14;
+    padding: 15px;
+    box-shadow: 0 0 3px #000;
+    font-size: x-large;
+    font-style: normal;
+    position: sticky;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+}
+
+
+header li
+{
+    display: inline;
+    padding-left: 45px;
+
+}
+
+header li a 
+{
+    color: yellow;
+    text-decoration: none;
+    padding: 13px;
+    transition: 1s ease;
+}
+
+header li a:hover
+{    
+    color: red;
+}
+
+header ul #contact a 
+{
+    color: white;
+    background-color: royalblue;
+    border-radius: 30px;
+    float: right;
+    position: relative;
+    top: -15px;
+}
+header ul #contact a:hover 
+{
+    background-color: goldenrod;
+}
+
+header li img 
+{
+    width: 100px ;
+    float: left;
+    margin-top: -25px;
+    margin-left: -20px;
+    border-radius: 20px;
+}
+
+.active
+{
+    color: chartreuse;
+}
+
+.gridcontainer {
+    height: 100%;
+    margin: 20px;
+    display:list-item;
+    grid-template-columns: auto auto auto ;
+    width:100%;
+    height: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    box-shadow: 0px 2px 8px 0px;
+
+}
+
+
+
+
+
+
+.heading {
+    text-align: center;
+    position: relative;
+    background-color: #0000ff;
+    color: #ffffff;
+    border-width: 4px;
+    padding: 20px;
+    }
+    .coupon{
+        box-shadow: 0px 2px 8px 0px;
+    border: 5px transparent #bbb;
+    width: 60%;
+    border-radius: 15px;
+    margin: 0 auto;
+    max-width: 600px;
+    background-color: white;
+    }
+    .container{
+    padding: 2px 16px;
+    background-color:white;
+    padding-top: 5%;
+ 
+    }
+    .promo{
+    background: #ccc;
+    padding: 3px;
+ 
+
+    }
+    .project-grid{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr) ;
+    justify-content: center;
+    padding-top: 5%;
+    }
+    .expire{
+    color: #ff0000;
+    }
+    .index{
+        box-shadow: 0px 2px 8px 0px;
+    background-color:white;
+    text-align: center;
+    border-radius: 1rem;
+    position:static;
+    margin: 0.5rem;
+    }
+    .wrapper-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    width:auto
+    }
+    
+    .content{
+    overflow: hidden;
+    box-shadow: 0px 2px 8px 0px;
+    background-color: white;
+    text-align: center;
+    border-radius: 1rem;
+    position:relative;
+    margin: 0.5rem;
+    }
+    .btn{
+    width: 100%;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    padding: 1rem;
+    background-color:burlywood;
+    }
+    .btn:hover{
+    cursor: pointer;
+    background-color: #0000ff;
+    }
+    .halloween{
+    color:#000000;
+    font-size: 24px;
+    }
+    .price{
+    font-size: 20px;
+    color: #ff0000;
+    }
+    .points{
+    color: #ff0000;
+    font-size: 18px;
+    }
+    .code{
+    color: #ff0000;
+    font-size: 15px;
+    }
+    .plans{
+    position: relative;
+    background-color: rgb(126, 19, 19);
+    color: black;
+    padding: 10px;
+    }
+
+.grid-element {
+    border: solid black 2px;
+    background-color: #031b14;
+}
+.grid-element:hover {
+    background-color:#031b14;
+}
